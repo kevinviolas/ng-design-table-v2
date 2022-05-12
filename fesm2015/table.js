@@ -208,6 +208,7 @@ let EquipementStatusComponent = class EquipementStatusComponent {
                 this.status = this.translate.translate(this.lang, 'KO');
                 break;
         }
+        console.log(status);
         if (params[clean]) {
             this.icon = params[clean];
         }
