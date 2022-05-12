@@ -202,7 +202,7 @@ let EquipementStatusComponent = class EquipementStatusComponent {
         console.log(clean);
         switch (clean) {
             case 'actif':
-                this.status = this.translate.translate(this.lang, 'FUNCTIONNAL');
+                this.status = this.translate.translate(this.lang, 'FUNCTIONAL');
                 break;
             case 'inactif':
                 this.status = this.translate.translate(this.lang, 'KO');
