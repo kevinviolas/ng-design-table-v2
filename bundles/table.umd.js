@@ -416,6 +416,7 @@
               "spare": "/assets/icons/status/spare.png",
             }*/
             var clean = (this.type || "").toLocaleLowerCase().replace(/[^A-Z0-9]+/ig, "");
+            console.log(clean);
             switch (clean) {
                 case 'actif':
                     this.status = this.translate.translate(this.lang, 'FUNCTIONNAL');
