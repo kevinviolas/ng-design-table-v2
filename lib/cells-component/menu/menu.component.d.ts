@@ -3,9 +3,11 @@ import * as i0 from "@angular/core";
 interface IMenuSettings {
     Label: string;
     Icon?: string;
+    IconColor?: string;
     Type: 'link' | 'modal';
     Value: any;
     Data?: any;
+    Class?: string;
 }
 export declare class MenuComponent implements OnInit {
     menuSettings: IMenuSettings[];
