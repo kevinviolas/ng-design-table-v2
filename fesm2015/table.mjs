@@ -1875,6 +1875,11 @@ class MenuComponent {
         console.log(this.element);
     }
     action(menu) {
+        let list = [];
+        menu.Data.forEach(dat => {
+            list.push(this.element[dat]);
+        });
+        menu.Data = list;
         this.callHandler.emit(menu);
     }
 }
