@@ -1,4 +1,5 @@
 import { OnChanges, SimpleChanges } from '@angular/core';
+import * as i0 from "@angular/core";
 export declare class NgxFlagsComponent implements OnChanges {
     country: string;
     format: string;
@@ -129,7 +130,7 @@ export declare class NgxFlagsComponent implements OnChanges {
         cuba: string;
         cv: string;
         cpv: string;
-        'cabo-verde [f]': string;
+        'cabo-verde\u200A[f]': string;
         cy: string;
         cyp: string;
         cyprus: string;
@@ -819,4 +820,6 @@ export declare class NgxFlagsComponent implements OnChanges {
     getFormat(): string;
     getCode(): string;
     getFlag(code: string): string;
+    static ɵfac: i0.ɵɵFactoryDeclaration<NgxFlagsComponent, never>;
+    static ɵcmp: i0.ɵɵComponentDeclaration<NgxFlagsComponent, "flag", never, { "country": "country"; "format": "format"; "size": "size"; "class": "class"; }, {}, never, never>;
 }

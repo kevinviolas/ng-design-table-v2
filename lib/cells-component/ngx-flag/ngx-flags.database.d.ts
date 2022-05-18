@@ -121,7 +121,7 @@ export declare const db: {
     cuba: string;
     cv: string;
     cpv: string;
-    'cabo-verde [f]': string;
+    'cabo-verde\u200A[f]': string;
     cy: string;
     cyp: string;
     cyprus: string;

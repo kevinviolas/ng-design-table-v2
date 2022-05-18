@@ -6,6 +6,7 @@ import { CoreMatTable, CoreMatTableInterface, FilterDateInterface, Page, PageReq
 import { ActivatedRoute, Router } from "@angular/router";
 import { TableService } from "./table.service";
 import { TranslateService } from './translate.service';
+import * as i0 from "@angular/core";
 interface displayColumnsConfig {
     sizeIcon?: number;
     displayYes?: boolean;
@@ -78,5 +79,7 @@ declare class TableComponent implements OnInit, OnChanges {
     reset(): boolean;
     expandShow(template: string): void;
     ngOnChanges(changes: SimpleChanges): void;
+    static ɵfac: i0.ɵɵFactoryDeclaration<TableComponent, never>;
+    static ɵcmp: i0.ɵɵComponentDeclaration<TableComponent, "ngx-design-table", never, { "columnDefinitions": "columnDefinitions"; "displayDetail": "displayDetail"; "displayComponent": "displayComponent"; "data": "data"; "lang": "lang"; "btnOverride": "btnOverride"; "inputSearch": "inputSearch"; "EmptyRow": "EmptyRow"; "blockDetails": "blockDetails"; }, { "callFunction": "callFunction"; "clicked": "clicked"; }, never, never>;
 }
 export { CoreMatTable, FilterDateInterface, CoreMatTableInterface, Page, PageRequest, Sort, displayedColumnsInterface, CellsComponentList, TableComponent };
