@@ -1865,9 +1865,11 @@ class CoreMatTable extends DataSource {
 
 class MenuComponent {
     constructor() {
+        this.menuSettings = [];
         this.callHandler = new EventEmitter();
     }
     ngOnInit() {
+        console.log(this.menuSettings);
     }
     action(menu) {
         this.callHandler.emit(menu);
