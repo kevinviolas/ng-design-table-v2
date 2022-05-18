@@ -8,6 +8,7 @@ interface IMenuSettings {
     Value: any;
     Data?: any;
     Class?: string;
+    Route?: string;
 }
 export declare class MenuComponent implements OnInit {
     menuSettings: IMenuSettings[];
