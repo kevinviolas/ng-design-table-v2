@@ -1600,6 +1600,7 @@ var CellsComponentList;
     CellsComponentList["ItStatus"] = "it-status";
     CellsComponentList["CustomIcon"] = "custom-icon";
     CellsComponentList["PngIcon"] = "png-icon";
+    CellsComponentList["Menu"] = "menu";
 })(CellsComponentList || (CellsComponentList = {}));
 
 class CoreMatTable extends DataSource {
