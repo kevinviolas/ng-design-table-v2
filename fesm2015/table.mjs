@@ -1875,7 +1875,7 @@ class MenuComponent {
         console.log(this.element);
     }
     action(menu) {
-        if (menu.Data.length > 0) {
+        if (menu.Data && menu.Data.length > 0) {
             let list = [];
             menu.Data.forEach(dat => {
                 list.push(this.element[dat]);
