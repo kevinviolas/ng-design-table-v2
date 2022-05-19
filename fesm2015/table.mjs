@@ -1875,10 +1875,17 @@ class MenuComponent {
         console.log(this.element);
     }
     action(menu) {
-        if (menu.Data && menu.Data.length > 0) {
+        if (menu.Data && menu.Data.length > 0 && menu.Type == 'link') {
             let list = [];
             menu.Data.forEach(dat => {
                 list.push(this.element[dat]);
+            });
+            menu.Data = list;
+        }
+        else if (menu.Data && menu.Data.length > 0 && menu.Type == 'modal') {
+            let list = [];
+            menu.Data.forEach(dat => {
+                list[dat] = this.element[dat];
             });
             menu.Data = list;
         }
