@@ -1869,7 +1869,6 @@ class MenuComponent {
         this.callHandler = new EventEmitter();
     }
     ngOnInit() {
-        console.log(this.element);
     }
     action(menu) {
         if (menu.Data && menu.Data.length > 0 && menu.Type == 'link') {
