@@ -1885,7 +1885,7 @@ class StatusIconComponent {
         switch (this.label.toLocaleLowerCase()) {
             case 'en cours':
             case 'ongoing':
-                this.src = '/assets/icons/Status/green-dot.svg';
+                this.src = '/assets/icons/status/green-dot.svg';
                 break;
             default:
                 this.src = '/assets/icons/status/yellow-dot.svg';
