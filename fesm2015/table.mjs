@@ -1886,8 +1886,8 @@ class StatusIconComponent {
     constructor() { }
     ngOnInit() {
         switch (this.label.toLocaleLowerCase()) {
-            case 'En cours':
-            case 'Ongoing':
+            case 'en cours':
+            case 'ongoing':
                 this.src = '/assets/icons/Status/green-dot.svg';
                 break;
             default:
