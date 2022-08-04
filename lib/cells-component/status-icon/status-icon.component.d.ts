@@ -6,5 +6,5 @@ export declare class StatusIconComponent implements OnInit {
     constructor();
     ngOnInit(): void;
     static ɵfac: i0.ɵɵFactoryDeclaration<StatusIconComponent, never>;
-    static ɵcmp: i0.ɵɵComponentDeclaration<StatusIconComponent, "status-icon", never, { "label": "label"; "src": "src"; }, {}, never, never>;
+    static ɵcmp: i0.ɵɵComponentDeclaration<StatusIconComponent, "status-icon", never, { "label": "label"; }, {}, never, never>;
 }
