@@ -1848,7 +1848,7 @@ class CoreMatTable extends DataSource {
             data = data.slice(start * end, (start * end) + end);
             if (this.emptyRow) {
                 data.forEach((d) => {
-                    rows.push('empty');
+                    //rows.push('empty');
                     rows.push(d);
                 });
                 return rows;
@@ -1859,7 +1859,7 @@ class CoreMatTable extends DataSource {
             data = data.slice(start * end, (start * end) + end);
             if (this.emptyRow) {
                 data.forEach((d) => {
-                    rows.push('empty');
+                    //rows.push('empty');
                     rows.push(d);
                 });
                 return rows;
